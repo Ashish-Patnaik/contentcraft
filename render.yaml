@@ -1,0 +1,18 @@
+services:
+  # This is the name of our web service
+  - type: web
+    name: contentcraft
+    # Use 'python' for Python environments
+    env: python
+    # This command installs all our dependencies from requirements.txt
+    buildCommand: "pip install -r requirements.txt"
+    # This is the command to start our production server
+    # It tells gunicorn to run the 'app' object from the 'app.py' file.
+    # The --worker-tmp-dir flag is a Render-specific optimization.
+    startCommand: "gunicorn --worker-tmp-dir /dev/shm app:app"
+    # This section defines the environment variables our app needs
+    envVars:
+      - key: GEMINI_API_KEY
+        # 'sync: false' means the value will be set in the Render dashboard, NOT stored in this file.
+        # This keeps your API key secure.
+        sync: false
