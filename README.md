@@ -175,10 +175,21 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api) - Excellent transcript extraction library
 - [Google Gemini API](https://ai.google.dev/) - Powerful AI language model
 - [Flask](https://flask.palletsprojects.com/) - Lightweight and flexible web framework
-- [Render](https://render.com/) - Seamless cloud deployment platform
 
-  
 
-**Made with ❤️ by Ashish Patnaik**
+## ⭐ Show Your Support
+
+If you found ContentCraft helpful, please consider:
+
+- ⭐ **[Star this repository](https://github.com/YOUR_USERNAME/contentcraft)** to show your support
+- 🐦 **[Follow me on X (Twitter)](https://x.com/YOUR_TWITTER_HANDLE)** for updates and more AI tools
+- 🔄 **Share this project** with others who might find it useful
+
+[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/contentcraft?style=social)](https://github.com/YOUR_USERNAME/contentcraft/stargazers)
+[![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_TWITTER_HANDLE?style=social)](https://x.com/YOUR_TWITTER_HANDLE)
+
+---
+
+**Made with ❤️ by [Ashish Patnaik]**
 
 *Transform your YouTube content into social media gold with ContentCraft!*
