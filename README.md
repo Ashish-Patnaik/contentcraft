@@ -186,7 +186,7 @@ If you found ContentCraft helpful, please consider:
 - 🔄 **Share this project** with others who might find it useful
 
 [![GitHub stars](https://img.shields.io/github/stars/Ashish-Patnaik/contentcraft?style=social)](https://github.com/Ashish-Patnaik/contentcraft/stargazers)
-[![Twitter Follow](https://img.shields.io/twitter/follow/@ashdebugs?style=social)](https://x.com/@ashdebugs)
+[![Twitter Follow](https://img.shields.io/twitter/follow/ashdebugs?style=social)](https://x.com/ashdebugs)
 
 ---
 
