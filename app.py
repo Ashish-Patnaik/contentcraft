@@ -11,7 +11,7 @@ load_dotenv()
 # Configure the Gemini API
 try:
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
-    model = genai.GenerativeModel('gemini-2.0-flash')
+    model = genai.GenerativeModel('gemini-1.5-pro')
 except Exception as e:
     print(f"Error configuring Gemini API: {e}")
     model = None
