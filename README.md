@@ -185,8 +185,8 @@ If you found ContentCraft helpful, please consider:
 - 🐦 **[Follow me on X (Twitter)](https://x.com/YOUR_TWITTER_HANDLE)** for updates and more AI tools
 - 🔄 **Share this project** with others who might find it useful
 
-[![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/contentcraft?style=social)](https://github.com/YOUR_USERNAME/contentcraft/stargazers)
-[![Twitter Follow](https://img.shields.io/twitter/follow/YOUR_TWITTER_HANDLE?style=social)](https://x.com/YOUR_TWITTER_HANDLE)
+[![GitHub stars](https://img.shields.io/github/stars/Ashish-Patnaik/contentcraft?style=social)](https://github.com/Ashish-Patnaik/contentcraft/stargazers)
+[![Twitter Follow](https://img.shields.io/twitter/follow/@ashdebugs?style=social)](https://x.com/@ashdebugs)
 
 ---
 
