@@ -2,7 +2,14 @@
 
 Transform any public YouTube video into a complete suite of ready-to-publish social media content in seconds. ContentCraft harnesses the power of AI to automatically convert video transcripts into engaging Twitter threads, professional LinkedIn posts, eye-catching Instagram captions, and more.
 
-![ContentCraft Banner](https://via.placeholder.com/800x400/1a1a1a/ffffff?text=ContentCraft+AI+YouTube+Content+Factory)
+<img width="420" height="420" alt="favicon" src="https://github.com/user-attachments/assets/3045f199-3aef-4072-a5c3-b639a36bb0f7" />
+
+
+## Demo
+
+https://github.com/user-attachments/assets/2de189ce-c488-4ebe-823e-539143758ad9
+
+
 
 ## ✨ Features
 
