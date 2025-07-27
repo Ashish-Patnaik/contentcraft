@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Ensure Tailwind's utilities take precedence where needed */
+@layer utilities {
+    .container {
+        transition: all 0.3s ease-in-out;
+    }
+
+    select {
+        background-image: none;
+    }
+
+    .loader {
+        animation: spin-pulse 1.5s ease-in-out infinite;
+        background: linear-gradient(to right, #4f46e5, #9333ea);
+        border: none;
+        box-shadow: 0 0 15px rgba(79, 70, 229, 0.5);
+    }
+
+    @keyframes spin-pulse {
+        0% {
+            transform: rotate(0deg) scale(1);
+            opacity: 1;
+        }
+        50% {
+            transform: rotate(180deg) scale(1.1);
+            opacity: 0.7;
+        }
+        100% {
+            transform: rotate(360deg) scale(1);
+            opacity: 1;
+        }
+    }
+}
+
+/* Custom styles for subtle enhancements */
+input:focus, select:focus, textarea:focus {
+    outline: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+button#generate-btn:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.copy-btn i.fa-check {
+    color: #34d399;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.875rem;
+    }
+
+    .options-section {
+        grid-template-columns: 1fr;
+    }
+}
